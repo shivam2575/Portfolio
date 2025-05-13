@@ -22,7 +22,6 @@ export const Navbar = ({ navOpen }) => {
     activeBox.current.style.height = event.target.offsetHeight + "px";
   };
 
-  useEffect(initActiveBox, []);
   const navItems = [
     {
       label: "Home",
@@ -48,9 +47,12 @@ export const Navbar = ({ navOpen }) => {
     {
       label: "Contact",
       link: "#contact",
-      className: "nav-link md:hidden",
+      className: "nav-link nav-contact",
     },
   ];
+
+  useEffect(initActiveBox, []);
+
   return (
     <nav className={"navbar " + (navOpen ? "active" : "")}>
       {navItems.map(({ label, link, className, ref }, key) => (

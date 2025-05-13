@@ -20,7 +20,7 @@ body{
 
 /* menu button */
 .menu-btn{
-  @apply w-10 h-10 grid place-items-center bg-zinc-50/10 rounded-xl ring-inset ring-1 ring-zinc-50/[0.02] backdrop-blur-2xl hover:bg-zinc-50/15 transition-[transform,shadow] active:scale-95
+  @apply md:hidden w-10 h-10 grid place-items-center bg-zinc-50/10 rounded-xl ring-inset ring-1 ring-zinc-50/[0.02] backdrop-blur-2xl hover:bg-zinc-50/15 transition-[transform,shadow] active:scale-95
 }
 
 /* navbar */
@@ -44,11 +44,17 @@ body{
   @apply absolute top-2 left-2 right-2 h-9 bg-zinc-50 rounded-lg -z-10 transition-[top,left] duration-500
 }
 
+.nav-contact{
+  @apply md:hidden
+}
+
 /* button */
 .btn{
   @apply max-w-max h-9 flex items-center gap-2 px-4 rounded-xl font-medium text-sm ring-1 ring-zinc-50/5 ring-inset transition-[background-color]
 }
 
 .btn-secondary{
-  @apply bg-zinc-50 text-zinc-900 active:bg-zinc-50/80
+  @apply bg-zinc-50 text-zinc-900 active:bg-zinc-50/80 max-md:hidden
 }
+
+
