@@ -5,10 +5,12 @@ import Review from "./components/Review";
 import Skill from "./components/Skill";
 import Work from "./components/Work";
 import Contact from "./components/contact";
+import Footer from "./components/Footer";
+import { ReactLenis, useLenis } from "lenis/react";
 
 function App() {
   return (
-    <>
+    <ReactLenis root>
       <Header />
       <main>
         <Hero />
@@ -18,7 +20,8 @@ function App() {
         <Review />
         <Contact />
       </main>
-    </>
+      <Footer />
+    </ReactLenis>
   );
 }
 
