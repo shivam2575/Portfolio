@@ -53,6 +53,7 @@ const ButtonOutline = ({ href, target = "_self", label, icon, classes }) => {
             href={href}
             target={target}
             className={"btn btn-outline " + classes}
+            download="shivam_kumar.pdf"
           >
             {label}
             {icon ? (
