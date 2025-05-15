@@ -26,23 +26,23 @@ const sitemap = [
 const socials = [
   {
     label: "GitHub",
-    href: "https://www.github.com/codewithsadee-org",
+    href: "https://github.com/shivam2575",
   },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/codewithsadee",
+    href: "https://www.linkedin.com/in/shivam-kumar-05a37a134/",
   },
   {
     label: "Twitter X",
-    href: "https://x.com/codewithsadee_",
+    href: "https://x.com/shivam2575",
   },
   {
     label: "Instagram",
-    href: "https://www.instagram.com/codewithsadee",
+    href: "https://www.instagram.com/shivam_____kumar?igsh=ZzNkeTc2bjQwb2Uy",
   },
   {
-    label: "CodePen",
-    href: "https://codepen.io/codewithsadee",
+    label: "Leetcode",
+    href: "https://leetcode.com/u/shivam2575/",
   },
 ];
 

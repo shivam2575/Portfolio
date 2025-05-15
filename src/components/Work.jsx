@@ -2,40 +2,35 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
   {
-    imgSrc: "/images/project-1.jpg",
-    title: "Full stack music app",
-    tags: ["API", "MVC", "Development"],
-    projectLink: "https://musify-5al0.onrender.com/",
+    imgSrc: "/images/netflix_ss.png",
+    title:
+      "NetflixGPT - A movie recommendation app powered by GPT-3.5 Turbo API",
+    tags: [
+      "API",
+      "MVC",
+      "Development",
+      "REACT",
+      "FIREBASE",
+      "TAILWIND",
+      "AUTHENTICATION",
+      "JEST",
+      "REDUX",
+      "AI",
+    ],
+    projectLink: "https://netflix-gpt-mauve-three.vercel.app/browse",
   },
   {
-    imgSrc: "/images/project-2.jpg",
-    title: "Free stock photo app",
-    tags: ["API", "SPA"],
-    projectLink: "https://pixstock-official.vercel.app/",
+    imgSrc: "/images/youtube-ss.png",
+    title: "YouTube Clone — Scalable video app with Live Chat",
+    tags: ["API", "SPA", "REACT", "FIREBASE", "TAILWIND", "REDUX", "LIVE-CHAT"],
+    projectLink: "https://clone-21e8d.web.app/",
   },
   {
-    imgSrc: "/images/project-3.jpg",
-    title: "Recipe app",
-    tags: ["Development", "API"],
-    projectLink: "",
-  },
-  {
-    imgSrc: "/images/project-4.jpg",
-    title: "Real state website",
-    tags: ["Web-design", "Development"],
-    projectLink: "https://github.com/codewithsadee-org/wealthome",
-  },
-  {
-    imgSrc: "/images/project-5.jpg",
-    title: "eCommerce website",
-    tags: ["eCommerce", "Development"],
-    projectLink: "https://github.com/codewithsadee/anon-ecommerce-website",
-  },
-  {
-    imgSrc: "/images/project-6.jpg",
-    title: "vCard Personal portfolio",
-    tags: ["Web-design", "Development"],
-    projectLink: "https://github.com/codewithsadee/vcard-personal-portfolio",
+    imgSrc: "/images/sincure_ss-min.png",
+    title:
+      "Sincure Foils — Responsive business website with real-time enquiry form",
+    tags: ["REACT", "SPA", "FIREBASE", "TAILWIND"],
+    projectLink: "https://www.sincure.in/",
   },
 ];
 
