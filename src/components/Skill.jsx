@@ -34,7 +34,7 @@ const skillItem = [
   {
     imgSrc: "/images/react.svg",
     label: "React",
-    desc: "Framework",
+    desc: "Library",
   },
   {
     imgSrc: "/images/tailwindcss.svg",
